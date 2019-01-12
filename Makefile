@@ -25,12 +25,13 @@ main.snd: main.bbl
 	sed -i s/.*\\emph.*// main.adx #remove titles which biblatex puts into the name index
 	sed -i 's/hyperindexformat{\\\(infn {[0-9]*\)}/\1/' main.sdx # ordering of references to footnotes
 	sed -i 's/hyperindexformat{\\\(infn {[0-9]*\)}/\1/' main.adx
-	sed -i 's/.*Office.*/\1/' main.adx
-	sed -i 's/.*Team.*/\1/' main.adx
-	sed -i 's/.*Bureau.*/\1/' main.adx
-	sed -i 's/.*Organisation.*/\1/' main.adx
-	sed -i 's/.*Embassy.*/\1/' main.adx
-	sed -i 's/.*Commission.*/\1/' main.adx
+	sed -i 's/.*Office.*//' main.adx
+	sed -i 's/.*Team.*//' main.adx
+	sed -i 's/.*Bureau.*//' main.adx
+	sed -i 's/.*Organisation.*//' main.adx
+	sed -i 's/.*Embassy.*//' main.adx
+	sed -i 's/.*Commission.*//' main.adx
+	sed -i 's/\\MakeCapital {([^}]* )}/\1/' main.adx
 	sed -i 's/hyperindexformat{\\\(infn {[0-9]*\)}/\1/' main.ldx
 # 	python3 fixindex.py
 # 	mv mainmod.adx main.adx
@@ -119,7 +120,7 @@ clean:
 	*.log *.blg *.ilg \
 	*.aux *.toc *.cut *.out *.tpm *.bbl *-blx.bib *_tmp.bib *bcf \
 	*.glg *.glo *.gls *.wrd *.wdv *.xdv *.mw *.clr *.pgs\
-	*.run.xml \
+	main.run.xml\
 	chapters/*aux chapters/*~ chapters/*.bak chapters/*.backup\
 	langsci/*/*aux langsci/*/*~ langsci/*/*.bak langsci/*/*.backup
 
@@ -131,10 +132,58 @@ chapterlist:
 
 
 barechapters:
-	cat *tex | detex > barechapters.txt
+	cat chapters/*tex | detex > barechapters.txt
 
 languagecandidates:
 	egrep -oh "[a-z] [A-Z][a-z]+" chapters/*tex| grep -o  [A-Z].* |sort -u >languagelist.txt
 
 
 FORCE:
+
+README.md: 
+	echo `grep title localmetadata.tex|sed "s/\\\\\title{\(.*\)}/\# \1/"` > README.md
+	echo '## Publication Info' >> README.md
+	echo -n '- Authors: ' >> README.md
+	echo `grep author localmetadata.tex|sed "s/\\\\\author{\(.*\)}/\1/"` >> README.md
+	echo "- Publication Date: not yet published" >> README.md
+	echo -n "- Series: " >> README.md
+	echo `grep "lsSeries}" localmetadata.tex|sed "s/.*lsSeries}{\(.*\)}/\1/"` >> README.md
+	echo "## Description" >> README.md
+	echo -n "[Book page on langsci-press.org](http://langsci-press.org/catalog/book/" >> README.md
+	echo  `grep lsID localmetadata.tex|sed "s/.*lsID\}{\(.*\)}/\1)/"` >> README.md 
+	echo "## License" >> README.md
+	echo "Copyright: (c) 2017, the authors." >> README.md
+	echo "All data, code and documentation in this repository is published under the [Creative Commons Attribution 4.0 Licence](http://creativecommons.org/licenses/by/4.0/) (CC BY 4.0)." >> README.md
+
+	
+	
+supersede: convert cover.png -fill white -colorize 60%  -pointsize 64 -draw "gravity center fill red rotate -45  text 0,12 'superseded' "  superseded.png; display superseded.png
+
+
+publish: googlebooks
+	cp main.pdf final.pdf 
+	cp main.pdf first_edition.pdf
+	git checkout gh-pages
+	git add first_edition.pdf 
+	vim versions.json
+	git commit -am 'provide first version'
+	git push origin gh-pages
+	git checkout master
+	wikicite
+# 	make bookblock modulo 4
+
+wikicite: 
+	echo '<ref name="abc">{{Cite book' > wiki
+	echo -n "| vauthors = " >>wiki; echo `grep author localmetadata.tex|sed "s/\\\\\author{\(.*\)}/\1/"`  >>wiki
+	echo -n "| title =" >>wiki; echo `grep title localmetadata.tex|sed "s/\\\\\title{\(.*\)}/\1/"` >>wiki
+	echo    "| place = Berlin" >>wiki 
+	echo    "| publisher = Language Science Press" >>wiki
+	echo    "| date = 2018" >>wiki
+	echo    "| format = pdf" >>wiki
+	echo -n "| url = http://langsci-press.org/catalog/book/"  >>wiki; echo `grep lsID localmetadata.tex|sed "s/.*lsID\}{\(.*\)}/\1/"` >>wiki
+	echo -n "| doi =" >>wiki; echo `cat doi` >>wiki
+	echo    "| doi-access=free" >>wiki
+	echo -n "| isbn = " >>wiki;  echo `grep lsISBNdigital localmetadata.tex|sed "s/.*lsISBNdigital\}{\(.*\)}/\1)/"` >>wiki
+	echo "}}" >>wiki
+	echo " </ref>" >>wiki
+	more wiki
