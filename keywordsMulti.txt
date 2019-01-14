@@ -1,0 +1,300 @@
+1sg intj
+3sg face
+3sg pear
+accessibility ariel1990
+accessibility marker
+accessibility scale
+accessible topic
+additional intonation
+additional intonation unit
+adpositional phrase
+adverbial clause
+adverbial subordinator
+analysis of spontaneous speech
+argument focus
+argument focus construction
+assumed cognitive status
+attenuated pronunciation
+auxiliary verb
+basket pear
+basket pear poss-3sg
+belh badudxaapa-huiini
+belh compl
+belh compl-fall
+belh compl-spill
+belh compl-spill basket
+belh compl-spill basket pear
+belh compl-spill basket pear poss-3sg
+belh guixi
+belh lah
+belh lah base
+belh lu
+belh ti
+biciclehta part
+bidxaagabe ti
+biiyadxisibe badudxaapahuiini
+bike boy
+bike girl
+bireeche dxumi
+body part
+boy dist
+broad focus
+casi ti
+category of salience tabular r
+certain degree of pragmatic accessibility
+chiastic structure
+chiastic use
+chiastic use of predicate focus
+child dist
+chupalh olhra
+clause-final position
+clause structure
+coding material
+cognitive staging
+cognitive staging area
+cognitive status
+cognitive status scale
+cohesion role
+common ground
+comparative construction
+compl-end night
+compl-spill basket
+compl-spill basket pear
+compl-spill basket pear poss-3sg
+conditional construction
+constituent order
+contrastive topic
+contrastive topic marker
+conversational strategy
+core argument
+cross-linguistic comparison
+cross-linguistic research
+cross-linguistic tendency
+day dist
+degree of pragmatic accessibility
+delimiting function
+dependent clause
+dependent form
+dependent pronoun
+discourse cohesion
+discourse cohesion role
+discourse particle
+dist intj
+dxi bixoone
+dxumi pera
+enclitic form
+entire sentence
+expression of information structure
+face tree
+face tree dist
+first syllable
+flexible syntax
+floating h
+floating h tone
+focal material
+focal stress
+focus construction
+focus domain
+focused constituent
+focused subject
+focus structure
+following example
+form part
+full lexical noun
+full np
+fundamental mechanism
+givenness hierarchy
+grammatical role
+grammatical role tabular r
+gue ti
+guira pera
+guxhiine xcoche
+high accessibility
+h lah
+h tone
+huaxa neza
+huaxa neza ze
+hum compl
+hum face
+hum pl
+hum pot
+hum q
+hum tomorrow
+identificational construction
+important discourse
+independent form
+independent pronoun
+individual framework
+information pressure
+information structure
+initial adverbial subordinator
+initial complementizer
+intermediate phrase
+international marathon
+intj base
+intonation contour
+intonation phrase
+intonation unit
+ira ni
+iu-final position
+iza ma
+lah base
+last root
+lexical argument
+lexical noun
+lexical np
+lexical o
+lexical reference
+lexical s
+linguistic material
+little girl
+l l
+l l l
+loc stat-be
+low accessibility
+lu yaga
+main clause
+main verb
+man dist
+manipulation of constituent order
+manner adverb
+many person
+marathon dist
+marked topic
+mirror image
+modal vowel
+naa ti
+narrow focus
+new argument
+new participant
+neza ze
+nominal expression
+normal udahua
+object np
+olhra nelh
+only maize
+organizing talk
+o role
+other bicycle
+overt form
+overt pronoun
+overt subject enclitic form
+overt third person
+overt third-person
+palm shade
+panda iza
+path part
+pear dist
+pear man
+pear poss-3sg
+pelhra base
+person enclitic
+person form
+phonological system
+phonological word
+pitch accent
+pitch range
+pitch register
+pl-3 loc stat-be
+pl child
+pl child dist
+pl man
+pl pear
+pl pear dist
+plural marker
+possessed noun
+potential focus
+potential focus domain
+pragmatic accessibility
+pragmatic status
+predicate focus
+predicate focus construction
+pre-verbal constituent
+pre-verbal position
+previous clause
+previous subject
+prominent position
+pronominal clitic
+pronominal form
+propositional content
+prosodic prominence
+quelh compl-see
+quelh lah
+question particle
+ra nuube
+referential common ground
+relative clause
+relative thematic salience
+resumptive subject enclitic
+role tabular r
+salience tabular r
+same propositional content
+sentence focus
+separate intonation
+separate intonation unit
+speaking turn
+spontaneous discourse
+spontaneous speech
+s role
+staging area
+stale binni
+stalelh binnilh
+status scale
+structural function
+study of information structure
+subject clitic
+subject enclitic
+subject enclitic form
+subject np
+subject position
+subordinate clause
+suerte stibe
+syntactic construction
+table frequency
+table tabular c
+table tabularl
+tabular c
+tabular l
+tabular l l
+tabularl l
+tabularl l l
+tabularl l l l
+tabular r
+tabular table
+thematic participant
+thematic salience
+third person
+third person enclitic
+third person form
+third person pronoun
+ti badunguiiu
+ti dxi
+ti dxumi
+ti dxumilh
+ti dxumi pera
+ti lari
+ti rigola
+ti rihgola
+tonal system
+topical information
+topicalization construction
+topic-comment construction
+topic continuity
+topic marker
+topic promotion
+topic referent
+track fig
+transitive clause
+transitive object
+tree dist
+type of nominal expression
+typology of focus structure
+use of predicate focus
+verb-initial construction
+verb-initial language
+verb-initial syntax
+verb root
+vowel phonation
+xcuihdi quelh
+xcuihdi quelh lah
+zero form
