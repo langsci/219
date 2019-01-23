@@ -132,7 +132,7 @@
 	\renewcommand{\lsISSN}{2364-6209}
 \fi
 \ifx\lsSeries\tgdi
-	\newcommand{\lsSeriesTitle}{Topics at the Grammar-Discourse Interface~\lsSeriesNumber}
+	\newcommand{\lsSeriesTitle}{\mbox{Topics at the Grammar-Discourse} \mbox{Interface~\lsSeriesNumber}}
 	\newcommand{\lsSeriesColor}{lsMidDarkBlue}
 	\renewcommand{\lsISSN}{2567-3335}
 \fi
