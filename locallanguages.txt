@@ -1,2 +1,21 @@
-languages to index
-oneperline
+Achenese 
+Algonquian
+Brazilian Portuguese
+Cayuga
+English
+Finnish
+French
+Santa María Guienagati Zapotec
+Hebrew
+Japanese
+Karbi
+Lachixío Zapotec
+Lisu
+Mapudungun
+Nepali
+Papago
+Russian
+Sakapultek Maya
+Somali
+Spanish
+Turkish

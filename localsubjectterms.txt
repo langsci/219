@@ -1,2 +1,67 @@
-subject terms to index
-oneperline
+accent
+accessibility
+adverbial
+animacy
+demonstrative
+focus
+glottalization
+intonation
+laryngealization
+Preferred Argument Structure
+presupposition
+prosody
+recency
+salience
+tone
+topic
+topicalization
+topic-comment
+argument focus
+broad focus
+chiastic structure
+cognitive staging area
+conditional construction
+constituent order
+contrastive topic
+discourse particle
+flexible syntax
+floating tone
+focal stress
+focus domain
+focus structure
+givenness hierarchy
+grammatical role
+identificational construction
+dependent pronoun
+independent pronoun
+information pressure
+information structure
+intonation unit
+constituent order
+marked topic
+narrow focus
+pitch accent
+potential focus domain
+pragmatic status
+predicate focus
+question particle
+sentence focus
+subordinate clause
+third person
+third person enclitic
+third person form
+third person pronoun
+tonal system
+topicalization construction
+topic-comment construction
+topic continuity
+topic marker
+topic promotion
+nominal expression
+typology of focus structure
+predicate focus
+verb-initial construction
+verb-initial language
+verb-initial syntax
+vowel phonation
+zero form
