@@ -1945,6 +1945,15 @@
     <bcf:datasource type="file" datatype="bibtex">localbibliography.bib</bcf:datasource>
   </bcf:bibdata>
   <bcf:section number="0">
+  </bcf:section>
+  <!-- SECTION 1 -->
+  <bcf:bibdata section="1">
+    <bcf:datasource type="file" datatype="bibtex">localbibliography.bib</bcf:datasource>
+  </bcf:bibdata>
+  <bcf:section number="1">
+  </bcf:section>
+  <!-- SECTION 0 (cont.) -->
+  <bcf:section number="0">
     <bcf:citekey order="3">alfabeto1956</bcf:citekey>
     <bcf:citekey order="4">bernini2006</bcf:citekey>
     <bcf:citekey order="4">mereu2009</bcf:citekey>
@@ -2269,6 +2278,15 @@
     </bcf:sort>
   </bcf:sortingtemplate>
   <!-- DATALISTS -->
+  <bcf:datalist section="1"
+                name="nyt/global//global/global"
+                type="entry"
+                sortingtemplatename="nyt"
+                sortingnamekeytemplatename="global"
+                labelprefix=""
+                uniquenametemplatename="global"
+                labelalphanametemplatename="global">
+  </bcf:datalist>
   <bcf:datalist section="0"
                 name="nyt/global//global/global"
                 type="entry"
